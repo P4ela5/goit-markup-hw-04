@@ -385,6 +385,11 @@ ul {
   display: flex;
 }
 
+.footer-hed {
+  margin-right: 120px;
+  width: 264px;
+}
+
 .footer-logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -407,24 +412,30 @@ ul {
   color: #f4f4fd;
   letter-spacing: 0.02em;
   font-size: 16px;
-  max-width: 264px;
-  margin-right: 120px;
+
+ 
 }
 .socmedia {
   display: flex;
   background: #2e2f42;
-  margin-left: 120px;
-  width: 208px;
   gap: 16px;
 }
 
+.socmedia li {
+  display: flex;
+background-color: #4d5ae5;
+border-radius: 50px;
+width: 40px;
+height: 40px;
+justify-content: center;
+align-items: center;
+gap: 16p;
+}
+
 .soc-icon {
+  fill: #f4f4fd;
   display: block;
-  background-color: #4d5ae5;
-  border-radius: 50px;
-  fill: #ffffff;
-  width: 40px;
-  height: 40px;
+
 }
 .footer-media {
   font-weight: 500;
@@ -433,5 +444,4 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: #fff;
 margin-bottom: 16px;
-margin-left: 120px;
 }
