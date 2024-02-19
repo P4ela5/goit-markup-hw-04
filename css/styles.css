@@ -261,7 +261,7 @@ ul {
   margin: 0 auto;
   gap: 72px;
   width: 1158px;
-  padding: 32px 0;
+  
 }
 
 .team-list {
@@ -308,7 +308,7 @@ ul {
   fill:  #f4f4fd;
 }
 .team-block {
-  padding: 32px 16px;
+  padding: 32px 0px;
 }
 
 .team-img {
