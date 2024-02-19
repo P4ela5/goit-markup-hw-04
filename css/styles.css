@@ -500,14 +500,14 @@ ul {
 
 .socmedia {
   display: flex;
-background-color: #4d5ae5;
-border-radius: 50px;
 justify-content: center;
 align-items: center;
-gap: 16p;
+gap: 16px;
 }
 
 .footer-socmedia {
+  background-color: #4d5ae5;
+border-radius: 50px;
   width: 40px;
 height: 40px;
 }
